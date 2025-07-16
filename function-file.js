@@ -9,7 +9,7 @@ function onMessageSendHandler(eventArgs) {
     if (result.status === Office.AsyncResultStatus.Succeeded) {
       const recipients = result.value.map(r => r.emailAddress.toLowerCase());
       if (recipients.includes("github@mario.it")) {
-        Office.context.ui.displayDialogAsync("https://mnegritest.github.io/outlook-confirm-addin/taskpane.html",
+        Office.context.ui.displayDialogAsync("https://mnegritest.github.io/outlook-confirm-addin2/taskpane.html",
           { height: 30, width: 20, displayInIframe: true },
           function (asyncResult) {
             const dialog = asyncResult.value;
