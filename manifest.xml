@@ -8,9 +8,9 @@
   <DefaultLocale>en-US</DefaultLocale>
   <DisplayName DefaultValue="Confirm Send to github@mario.it"/>
   <Description DefaultValue="Shows a confirmation popup before sending to github@mario.it"/>
-  <IconUrl DefaultValue="https://mnegritest.github.io/outlook-confirm-addin/assets/icon-32.png"/>
-  <HighResolutionIconUrl DefaultValue="https://mnegritest.github.io/outlook-confirm-addin/assets/icon-80.png"/>
-  <SupportUrl DefaultValue="https://mnegritest.github.io/outlook-confirm-addin/"/>
+  <IconUrl DefaultValue="https://mnegritest.github.io/outlook-confirm-addin2/assets/icon-32.png"/>
+  <HighResolutionIconUrl DefaultValue="https://mnegritest.github.io/outlook-confirm-addin2/assets/icon-80.png"/>
+  <SupportUrl DefaultValue="https://mnegritest.github.io/outlook-confirm-addin2/"/>
   <Hosts>
     <Host Name="Mailbox"/>
   </Hosts>
@@ -22,7 +22,7 @@
   <FormSettings>
     <Form xsi:type="ItemSend">
       <DesktopSettings>
-        <SourceLocation DefaultValue="https://mnegritest.github.io/outlook-confirm-addin/function-file.html"/>
+        <SourceLocation DefaultValue="https://mnegritest.github.io/outlook-confirm-addin2/function-file.html"/>
       </DesktopSettings>
     </Form>
   </FormSettings>
