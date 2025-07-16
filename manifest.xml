@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<OfficeApp xmlns="http://schemas.microsoft.com/office/appforoffice/1.1"
+           xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+           xsi:type="MailApp">
+  <Id>f3b8c6e2-1f2e-4a3a-9f3e-123456789abc</Id>
+  <Version>1.0.0.0</Version>
+  <ProviderName>GitHub Addin</ProviderName>
+  <DefaultLocale>en-US</DefaultLocale>
+  <DisplayName DefaultValue="Confirm Send to github@mario.it"/>
+  <Description DefaultValue="Shows a confirmation popup before sending to github@mario.it"/>
+  <IconUrl DefaultValue="https://mnegritest.github.io/outlook-confirm-addin/assets/icon-32.png"/>
+  <HighResolutionIconUrl DefaultValue="https://mnegritest.github.io/outlook-confirm-addin/assets/icon-80.png"/>
+  <SupportUrl DefaultValue="https://mnegritest.github.io/outlook-confirm-addin/"/>
+  <Hosts>
+    <Host Name="Mailbox"/>
+  </Hosts>
+  <Requirements>
+    <Sets DefaultMinVersion="1.1">
+      <Set Name="Mailbox"/>
+    </Sets>
+  </Requirements>
+  <FormSettings>
+    <Form xsi:type="ItemSend">
+      <DesktopSettings>
+        <SourceLocation DefaultValue="https://mnegritest.github.io/outlook-confirm-addin/function-file.html"/>
+      </DesktopSettings>
+    </Form>
+  </FormSettings>
+  <Permissions>ReadWriteItem</Permissions>
+</OfficeApp>
