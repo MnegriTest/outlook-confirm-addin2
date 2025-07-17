@@ -1,0 +1,54 @@
+/* Stili di base per il pannello laterale (puoi personalizzarli) */
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f8f8;
+    color: #333;
+}
+
+#app-body {
+    padding: 20px;
+}
+
+.content-header {
+    margin-bottom: 20px;
+    border-bottom: 1px solid #eee;
+    padding-bottom: 15px;
+}
+
+h2 {
+    color: #0078d4;
+    font-size: 1.5em;
+    margin: 0;
+}
+
+.content-main p {
+    line-height: 1.6;
+    margin-bottom: 20px;
+}
+
+.ms-Button {
+    background-color: #0078d4;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 1em;
+    transition: background-color 0.2s ease;
+}
+
+.ms-Button:hover {
+    background-color: #005a9e;
+}
+
+#output {
+    margin-top: 20px;
+    padding: 10px;
+    background-color: #e6f7ff;
+    border: 1px solid #b3e0ff;
+    border-radius: 4px;
+    font-family: 'Consolas', monospace;
+    color: #004085;
+}

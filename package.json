@@ -1,0 +1,33 @@
+{
+    "name": "outlooksendconfirmation",
+    "version": "1.0.0",
+    "description": "Add-in Outlook per la conferma dell'invio di email a indirizzi specifici.",
+    "scripts": {
+        "build": "webpack --mode production",
+        "start": "webpack serve --mode development",
+        "validate": "office-addin-lint validate",
+        "lint": "office-addin-lint check",
+        "fix": "office-addin-lint fix"
+    },
+    "dependencies": {
+        "@microsoft/office-js-helpers": "^1.0.2",
+        "core-js": "^3.9.1",
+        "office-addin-dev-certs": "^1.11.2",
+        "office-addin-lint": "^1.0.4"
+    },
+    "devDependencies": {
+        "@babel/core": "^7.14.0",
+        "@babel/preset-env": "^7.14.0",
+        "babel-loader": "^8.2.2",
+        "clean-webpack-plugin": "^4.0.0-alpha.0",
+        "copy-webpack-plugin": "^9.0.0",
+        "css-loader": "^6.8.1",
+        "html-loader": "^4.2.0",
+        "html-webpack-plugin": "^5.3.1",
+        "source-map-loader": "^4.0.2",
+        "style-loader": "^3.3.3",
+        "webpack": "^5.36.2",
+        "webpack-cli": "^4.7.0",
+        "webpack-dev-server": "^4.0.0-beta.0"
+    }
+}

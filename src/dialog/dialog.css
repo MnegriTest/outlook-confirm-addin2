@@ -1,0 +1,76 @@
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background-color: #f4f4f4;
+    color: #333;
+}
+
+#container {
+    background-color: #ffffff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    max-width: 400px;
+    width: 90%;
+}
+
+h1 {
+    color: #0078d4;
+    margin-top: 0;
+    margin-bottom: 20px;
+    font-size: 1.8em;
+}
+
+p {
+    font-size: 1.1em;
+    line-height: 1.6;
+    margin-bottom: 25px;
+}
+
+strong {
+    color: #e04400; /* Un colore che attiri l'attenzione per l'indirizzo */
+}
+
+.button-group {
+    display: flex;
+    justify-content: space-around;
+    gap: 15px; /* Spazio tra i bottoni */
+    margin-top: 20px;
+}
+
+button {
+    padding: 12px 25px;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.05em;
+    cursor: pointer;
+    transition: background-color 0.2s ease, transform 0.1s ease;
+    flex-grow: 1; /* Permette ai bottoni di espandersi */
+}
+
+button.primary {
+    background-color: #0078d4;
+    color: white;
+}
+
+button.primary:hover {
+    background-color: #005a9e;
+    transform: translateY(-2px);
+}
+
+button.secondary {
+    background-color: #f0f0f0;
+    color: #333;
+    border: 1px solid #ccc;
+}
+
+button.secondary:hover {
+    background-color: #e0e0e0;
+    transform: translateY(-2px);
+}
