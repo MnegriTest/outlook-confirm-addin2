@@ -10,7 +10,7 @@
   <DisplayName DefaultValue="Conferma Invio Email"/>
   <Description DefaultValue="Richiede conferma prima di inviare email a indirizzi specifici."/>
   <IconUrl DefaultValue="https://mnegritest.github.io/outlook-confirm-addin2/assets/icon-64.png"/> <HighResolutionIconUrl DefaultValue="https://mnegritest.github.io/outlook-confirm-addin2/assets/icon-128.png"/> <AppDomains>
-    <AppDomain>https://YOUR_GITHUB_PAGES_URL</AppDomain> </AppDomains>
+    <AppDomain>https://mnegritest.github.io/outlook-confirm-addin2</AppDomain> </AppDomains>
   <Hosts>
     <Host Name="Mailbox"/>
   </Hosts>
