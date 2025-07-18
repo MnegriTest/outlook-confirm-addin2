@@ -2,7 +2,7 @@
 // Viene registrata nel manifest.xml.
 Office.addin.onMessageSend(function (event) {
     const item = Office.context.mailbox.item;
-    const targetRecipient = "github@mario.it"; // **L'INDIRIZZO EMAIL DA MONITORARE**
+    const targetRecipient = "email@dominio.it"; // **L'INDIRIZZO EMAIL DA MONITORARE**
 
     console.log("OnMessageSend event triggered.");
 
