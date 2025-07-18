@@ -33,7 +33,7 @@
   <Rule xsi:type="RuleCollection" Mode="And">
     <Rule xsi:type="ItemIs" ItemType="Message" FormType="Edit"/>
   </Rule>
-  <VersionOverrides xmlns="http://schemas.microsoft.com/office/appforoffice/1.1" xsi:type="VersionOverridesV1_0">
+  <VersionOverrides xmlns="http://schemas.microsoft.com/office/mailappversionoverrides/1.0" xsi:type="VersionOverridesV1_0">
     <Requirements>
       <Sets>
         <Set Name="Mailbox" MinVersion="1.8"/>
@@ -41,7 +41,7 @@
     </Requirements>
     <Hosts>
       <Host xsi:type="MailHost">
-        <Ressources>
+        <Resources>
           <bt:Images>
             <bt:Image id="Icon.16x16" DefaultValue="https://mnegritest.github.io/outlook-confirm-addin2/assets/icon-16.png"/> <bt:Image id="Icon.32x32" DefaultValue="https://mnegritest.github.io/outlook-confirm-addin2/assets/icon-32.png"/> <bt:Image id="Icon.64x64" DefaultValue="https://mnegritest.github.io/outlook-confirm-addin2/assets/icon-64.png"/> <bt:Image id="Icon.80x80" DefaultValue="https://mnegritest.github.io/outlook-confirm-addin2/assets/icon-80.png"/> <bt:Image id="Icon.128x128" DefaultValue="https://mnegritest.github.io/outlook-confirm-addin2/assets/icon-128.png"/> </bt:Images>
           <bt:Urls>
@@ -55,7 +55,7 @@
             <bt:String id="TaskpaneButton.Tooltip" DefaultValue="Apri il pannello laterale del mio add-in."/>
             <bt:String id="ContextMenu.Tooltip" DefaultValue="Conferma l'invio dell'email."/>
           </bt:LongStrings>
-        </Ressources>
+        </Resources>
         <DesktopFormFactor>
           <FunctionFile id="Commands.Url"/>
           <ExtensionPoint xsi:type="LaunchEvent" AppliesTo="Mail">
