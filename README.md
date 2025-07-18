@@ -7,7 +7,7 @@ Questo add-in di Outlook richiede una conferma all'utente prima di inviare un'em
 ## Funzionalità
 
 * Intercetta l'invio di email.
-* Controlla se uno dei destinatari corrisponde a un indirizzo predefinito (`github@mario.it`).
+* Controlla se uno dei destinatari corrisponde a un indirizzo predefinito (`email@dominio.it`).
 * Se l'indirizzo corrisponde, mostra un popup di conferma all'utente.
 * Blocca l'invio dell'email fino a quando l'utente non conferma o annulla.
 
