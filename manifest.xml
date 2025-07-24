@@ -8,8 +8,8 @@
   <Version>1.0.0.0</Version>
   <ProviderName>Test Org</ProviderName>
   <DefaultLocale>it-IT</DefaultLocale>
-  <DisplayName DefaultValue="Test Add-in"/>
-  <Description DefaultValue="Add-in di test per Outlook"/>
+  <DisplayName DefaultValue="Conferma Invio Email"/>
+  <Description DefaultValue="Richiede conferma prima di inviare email a indirizzi specifici."/>
   <IconUrl DefaultValue="https://mnegritest.github.io/outlook-confirm-addin2/assets/icon-64.png"/>
   <HighResolutionIconUrl DefaultValue="https://mnegritest.github.io/outlook-confirm-addin2/assets/icon-128.png"/>
   <SupportUrl DefaultValue="https://microsoft.com/support"/>
