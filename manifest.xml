@@ -4,7 +4,7 @@
            xmlns:bt="http://schemas.microsoft.com/office/officeappbasictypes/1.0"
            xmlns:mailappor="http://schemas.microsoft.com/office/mailappversionoverrides"
            xsi:type="MailApp">
-  <Id>3c65e5a3-2209-4831-b3be-fde60e2fe29f</Id>
+  <Id>3c5b5978-d575-4ee6-a5ca-4cfa5814561c</Id>
   <Version>1.0.0.0</Version>
   <ProviderName>Test Org</ProviderName>
   <DefaultLocale>it-IT</DefaultLocale>
