@@ -4,7 +4,7 @@
            xmlns:bt="http://schemas.microsoft.com/office/officeappbasictypes/1.0"
            xmlns:mailappor="http://schemas.microsoft.com/office/mailappversionoverrides"
            xsi:type="MailApp">
-  <Id>3c5b5978-d575-4ee6-a5ca-4cfa5814561c</Id>
+  <Id>3c65e5a3-2209-4831-b3be-fde60e2fe29f</Id>
   <Version>1.0.0.0</Version>
   <ProviderName>Test Org</ProviderName>
   <DefaultLocale>it-IT</DefaultLocale>
@@ -46,56 +46,56 @@
       <Host xsi:type="MailHost">
         <DesktopFormFactor>
           <FunctionFile resid="Commands.Url"/>
-<ExtensionPoint xsi:type="MessageReadCommandSurface">
-  <OfficeTab id="TabDefault">
-    <Group id="msgReadGroup">
-      <Label resid="paneReadButtonLabel"/>
-      <Control xsi:type="Button" id="msgReadOpenPaneButton">
-        <Label resid="paneReadButtonLabel"/>
-        <Supertip>
-          <Title resid="TaskpaneButton.Tooltip"/>
-            <Description resid="TaskpaneButton.Tooltip"/>
-        </Supertip>
-        <Icon>
-          <bt:Image size="16" resid="Icon.16x16"/>
-          <bt:Image size="32" resid="Icon.32x32"/>
-          <bt:Image size="80" resid="Icon.80x80"/>
-        </Icon>
-        <Action xsi:type="ShowTaskpane">
-		  <SourceLocation resid="Taskpane.Url"/>
-        </Action>
-      </Control>
-    </Group>
-  </OfficeTab>
-</ExtensionPoint>
+          <ExtensionPoint xsi:type="MessageReadCommandSurface">
+            <OfficeTab id="TabDefault">
+              <Group id="msgReadGroup">
+                <Label resid="Group1Label"/>
+                <Control xsi:type="Button" id="msgReadOpenPaneButton">
+                  <Label resid="paneReadButtonLabel"/>
+                  <Supertip>
+                    <Title resid="paneReadSuperTipTitle"/>
+                    <Description resid="paneReadSuperTipDescription"/>
+                  </Supertip>
+                  <Icon>
+                    <bt:Image size="16" resid="Icon.16x16"/>
+                    <bt:Image size="32" resid="Icon.32x32"/>
+                    <bt:Image size="80" resid="Icon.80x80"/>
+                  </Icon>
+                  <Action xsi:type="ShowTaskpane">
+                    <SourceLocation resid="Taskpane.Url"/>
+                  </Action>
+				</Control>
+              </Group>
+            </OfficeTab>
+          </ExtensionPoint>
         </DesktopFormFactor>
       </Host>
     </Hosts>
-        <Resources>
-          <bt:Images>
-            <bt:Image id="Icon.16x16" DefaultValue="https://mnegritest.github.io/outlook-confirm-addin2/assets/icon-16.png"/>
-            <bt:Image id="Icon.32x32" DefaultValue="https://mnegritest.github.io/outlook-confirm-addin2/assets/icon-32.png"/>
-            <bt:Image id="Icon.64x64" DefaultValue="https://mnegritest.github.io/outlook-confirm-addin2/assets/icon-64.png"/>
-            <bt:Image id="Icon.80x80" DefaultValue="https://mnegritest.github.io/outlook-confirm-addin2/assets/icon-80.png"/>
-            <bt:Image id="Icon.128x128" DefaultValue="https://mnegritest.github.io/outlook-confirm-addin2/assets/icon-128.png"/>
-          </bt:Images>
-          <bt:Urls>
-            <bt:Url id="Commands.Url" DefaultValue="https://mnegritest.github.io/outlook-confirm-addin2/src/commands/commands.html"/>
-            <bt:Url id="Dialog.Url" DefaultValue="https://mnegritest.github.io/outlook-confirm-addin2/src/dialog/dialog.html"/>
-            <bt:Url id="Taskpane.Url" DefaultValue="https://mnegritest.github.io/outlook-confirm-addin2/src/taskpane/taskpane.html"/>
-          </bt:Urls>
-          <bt:ShortStrings>
-            <bt:String id="Group1Label" DefaultValue="Invia con Conferma"/>
-            <bt:String id="CustomTabLabel" DefaultValue="Il Mio Add-in"/>
-            <bt:String id="SetTabLabel" DefaultValue="Email"/>
-            <bt:String id="paneReadButtonLabel" DefaultValue="Apri pannello"/>
-            <bt:String id="paneReadSuperTipTitle" DefaultValue="Apri il pannello laterale"/>
-          </bt:ShortStrings>
-          <bt:LongStrings>
-            <bt:String id="TaskpaneButton.Tooltip" DefaultValue="Apri il pannello laterale del mio add-in."/>
-            <bt:String id="ContextMenu.Tooltip" DefaultValue="Conferma l'invio dell'email."/>
-            <bt:String id="paneReadSuperTipDescription" DefaultValue="Clicca per aprire il pannello laterale con funzionalità aggiuntive."/>
-          </bt:LongStrings>
-        </Resources>
+    <Resources>
+      <bt:Images>
+        <bt:Image id="Icon.16x16" DefaultValue="https://mnegritest.github.io/outlook-confirm-addin2/assets/icon-16.png"/>
+        <bt:Image id="Icon.32x32" DefaultValue="https://mnegritest.github.io/outlook-confirm-addin2/assets/icon-32.png"/>
+        <bt:Image id="Icon.64x64" DefaultValue="https://mnegritest.github.io/outlook-confirm-addin2/assets/icon-64.png"/>
+        <bt:Image id="Icon.80x80" DefaultValue="https://mnegritest.github.io/outlook-confirm-addin2/assets/icon-80.png"/>
+        <bt:Image id="Icon.128x128" DefaultValue="https://mnegritest.github.io/outlook-confirm-addin2/assets/icon-128.png"/>
+      </bt:Images>
+      <bt:Urls>
+        <bt:Url id="Commands.Url" DefaultValue="https://mnegritest.github.io/outlook-confirm-addin2/src/commands/commands.html"/>
+        <bt:Url id="Dialog.Url" DefaultValue="https://mnegritest.github.io/outlook-confirm-addin2/src/dialog/dialog.html"/>
+        <bt:Url id="Taskpane.Url" DefaultValue="https://mnegritest.github.io/outlook-confirm-addin2/src/taskpane/taskpane.html"/>
+      </bt:Urls>
+      <bt:ShortStrings>
+        <bt:String id="Group1Label" DefaultValue="Invia con Conferma"/>
+        <bt:String id="CustomTabLabel" DefaultValue="Il Mio Add-in"/>
+        <bt:String id="SetTabLabel" DefaultValue="Email"/>
+        <bt:String id="paneReadButtonLabel" DefaultValue="Apri pannello"/>
+        <bt:String id="paneReadSuperTipTitle" DefaultValue="Apri il pannello laterale"/>
+      </bt:ShortStrings>
+      <bt:LongStrings>
+        <bt:String id="TaskpaneButton.Tooltip" DefaultValue="Apri il pannello laterale del mio add-in."/>
+        <bt:String id="ContextMenu.Tooltip" DefaultValue="Conferma l'invio dell'email."/>
+        <bt:String id="paneReadSuperTipDescription" DefaultValue="Clicca per aprire il pannello laterale con funzionalità aggiuntive."/>
+      </bt:LongStrings>
+    </Resources>
   </VersionOverrides>
 </OfficeApp>
